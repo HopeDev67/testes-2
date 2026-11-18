@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Changa+One:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(https://i.pinimg.com/736x/4c/ea/95/4cea95e21c81aaf658184caccb948d66.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.container 
+
+{
+  width: 400px;
+  background-color: transparent;
+  border: 2px solid #838282;
+  border-radius: 40px;
+  color: #ffffff;
+  padding: 40px 30px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.404);
+  backdrop-filter: blur(3px);
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 2.5em;
+ margin-bottom: 10px;
+}
+.input-box {
+  position: relative;
+  width: 100%;
+  margin: 5% 10px;
+  height: 40px;
+}
+
+.input-box input {
+width: 90%;
+height: 100%;
+background-color: transparent;
+border: 2px solid #838282;
+border-radius: 20px;
+outline: none;
+font-size: 15px;
+color: #ffffff;
+padding: 1px 5px;
+}
+
+.input-box input::placeholder {
+  color: #ffffff;
+  padding: 9px 9px;
+}
+
+
+.input-box i {
+  position: absolute;
+  right: 1px;
+  top: 50%;
+  font-size: 20px;
+  transform: translateY(-50%);
+  color: #ffffff;
+}
+  
+
+.relembrar{
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: 17px;
+  align-items: center;
+ 
+}
+
+
+.relembrar label input[type="checkbox"] {
+  cursor: pointer;
+  accent-color: #fcfcfc
+ 
+  
+} 
+.relembrar  a {
+  text-decoration: underline;
+  color: #f1f1f1;
+  margin: 10px;
+font-size: 18px;
+
+  
+}
+
+.registrar p {
+ display: flex; 
+ justify-content: space-between;
+ color: #fdfdfd;
+ font-size: 18px;
+
+}
+
+.registrar a {
+  display: flex
+  justify-content space-between;
+  color: #ffffff;
+  margin: 10px;
+  
+
+}.registrar p {
+  justify-content: space-between;
+  color: #fafafa;
+  align-items: center
+  
+}
+
+.button[type="submit"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid #838282;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.404);
+  position:relative;
+  border-radius: 30px;
+  top: 50%;
+  transform: translateY( 25%);
+  left: 75px;
+  color: #ffffff;
+  font-size: 35px;
+  cursor: pointer;
+}
